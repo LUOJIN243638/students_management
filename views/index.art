@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>students file</title>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<form action="/add" method="post">
+		<fieldset>
+			<legend>students file</legend>
+			<label>
+				name: <input class="normal" type="text" autofocus placeholder="please enter your name" name="name">
+			</label>
+			<label>
+				age: <input class="normal"  type="text" placeholder="please enter your age" name="age">
+			</label>
+			<label>
+				sex: 
+				<input type="radio" value="0" name="sex"> male
+				<input type="radio" value="1" name="sex"> female
+			</label>
+			<label>
+				email: <input class="normal" type="text" placeholder="pease enter your email" name="email">
+			</label>
+			<label>
+				hobbies: 
+				<input type="checkbox" value="programing" name="hobbies"> programing
+				<input type="checkbox" value="basketball" name="hobbies"> play basketball
+				<input type="checkbox" value="sleep" name="hobbies"> sleep
+			</label>
+			<label>
+				department: 
+				<select class="normal" name="collage">
+					<option value="font-end devolpe">web font-end devolpment</option>
+					<option value="PHP">PHP</option>
+					<option value="JAVA">JAVA</option>
+					<option value="Android">Android</option>
+					<option value="IOS">IOS</option>
+					<option value="UI设计">UI design</option>
+					<option value="C++">C++</option>
+				</select>
+			</label>
+			<label>
+				enrollment date: <input type="date" class="normal" name="enterDate">
+			</label>
+			<label class="btn">
+				<input type="submit" value="submit" class="normal">
+			</label>
+		</fieldset>
+	</form>
+</body>
+</html>
